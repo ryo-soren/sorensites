@@ -1,0 +1,247 @@
+@import url(reset.css);
+
+body{
+    background-image: linear-gradient(rgba(19,36,158,1), rgba(19,36,158,.2), rgba(19,36,158,0));
+    font-family: "Roboto", "Poppins", sans-serif;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 2em ;
+}
+
+header{
+    background-color: #D1D1D1;
+    opacity: 50%;
+    display: flex;
+    height: 5em;
+    padding-inline-start: 5%;
+    padding-inline-end: 5%;
+    justify-content: space-between;
+}
+
+.brand-container{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.branding{
+    letter-spacing: .25em;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.role{
+    font-weight: lighter;
+}
+
+.navbar-container{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title-section-container{
+    color: #E5E2E2;
+    text-align: center;
+}
+
+.title-section-container>h1, h2, button{
+    margin: 1rem;
+}
+
+.title-section-container>h1{
+    font-size: 2em;
+    letter-spacing: .25em;
+}
+
+h2{
+    letter-spacing: .25em;
+    color: #E5E2E2;
+}
+
+.title-section-container>button{
+    
+    color: #13249e;
+    background-color: #E5E2E2;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #13249e;
+
+    font-weight: bolder;
+    letter-spacing: .125em;
+    font-size: .7em;
+
+    padding: 1rem;
+    margin-top: 0;
+}
+
+.line-break{
+    background-color: #13249e;
+    width: 90%;
+    height: 1px;
+    border: none;
+}
+
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    max-width: 90%;
+    margin: 1rem;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+
+    color: #E5E2E2;
+}
+
+.about-me-container>img{
+    max-width: 50%;
+    max-height: auto;
+    margin: auto;
+    margin-left: .5em;
+    border-radius: 10px;
+}
+
+.text-container{
+    max-width: 50%;
+    margin: auto;
+}
+
+.text-container> h2, p{
+    letter-spacing: .5em;
+}
+
+.text-container>h2{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.small-text{
+    font-size: .1em;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.work-highlights-container{
+    max-width: 90%;
+    margin: 1rem;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    text-align: center;
+    color: #E5E2E2;
+}
+
+.work-highlights-container> h2, p{
+    letter-spacing: .5em;
+}
+
+.work-highlights-container>h2{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+
+.highlight-card{
+    background-color: #D1D1D1;
+    color:black;
+    
+    max-width: 75%;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+
+    border:#13249e solid .1em;
+    border-radius: 10px;
+}
+
+.highlight-card>img{
+    max-width: 50%;
+}
+
+.highlight-card>h3{
+    padding: 1em;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: .5em;
+}
+
+.highlight-card>button{
+    color: #13249e;
+    background-color: #E5E2E2;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #13249e;
+
+    font-weight: bolder;
+    letter-spacing: .125em;
+    
+    padding: 1rem;
+}
+
+.competencies-container{
+    width: 90%;
+    margin: 1rem;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    text-align: left;
+    color: black;
+    justify-content: space-between;
+}
+
+.languages-container, .logo-container{
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-row{
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 1.8em;
+}
+
+.logo-row>img{
+    width: 35%;
+    height: max-content;
+    margin:.5em;
+}
+
+.competencies-container>ul{
+    list-style-type: square;
+}
+
+.competency::before{
+    content: "\2022";
+    font-size: 2em;
+    margin-right: .5em;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.competency{
+    display: flex;
+    margin-top: 2em;
+}
