@@ -146,18 +146,22 @@ h2{
 }
 
 .work-highlights-container>h2{
-    font-size: 1em;
+    font-size:.5em;
     font-weight: bold;
     padding: 0;
     margin: 0;
 }
 
+.highlight-cards-container{
+    display:flex;
+}
 
 .highlight-card{
     background-color: #D1D1D1;
     color:black;
     
-    max-width: 75%;
+    max-width: 25%;
+    height: 100%;
     margin: auto;
     margin-top: 1em;
     padding: 1em;
@@ -222,7 +226,7 @@ h2{
 }
 
 .logo-row>img{
-    width: 35%;
+    width: 25%;
     height: max-content;
     margin:.5em;
 }
@@ -244,4 +248,5 @@ h2{
 .competency{
     display: flex;
     margin-top: 2em;
+    margin-right: 1em;
 }
